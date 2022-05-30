@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "command": "cargo",
+    "tasks" :[
+        {
+            "label": "build",
+            "command": "cargo",
+            "args": [
+                "build"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "run",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "test",
+            "command": "cargo",
+            "args": [
+                "test"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "_id": "test",
+                "isDefault": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "command": "cargo",
+    "showOutput": "always",
+    "tasks" :[
+        {
+            "taskName": "build",
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "run"
+        },
+        {
+            "taskName": "test",
+            "isTestCommand": true
+        }
+    ]
+}
